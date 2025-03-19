@@ -1,15 +1,15 @@
-# 🚗 Smart Parking System using IoT 🚦
+# Smart Parking System using IoT 
 
 <p align="center">
   <img src="Smart_Parking_System.png" alt="Smart Parking System" height="50%" width="80%">
 </p>
 
-## 📌 Overview
-The **Smart Parking System** is an IoT-based solution designed to automate parking management. Using **IR sensors, an OLED display, a servo motor, and ESP8266**, the system detects available slots, updates real-time data on the **Blynk IoT platform**, and manages gate access efficiently. This project ensures seamless parking solutions with a user-friendly interface. 🚘✨
+## Overview
+The **Smart Parking System** is an IoT-based solution designed to automate parking management. Using **IR sensors, an OLED display, a servo motor, and ESP8266**, the system detects available slots, updates real-time data on the **Blynk IoT platform**, and manages gate access efficiently. This project ensures seamless parking solutions with a user-friendly interface. 
 
 ---
 
-## 🌟 Features
+## Features
 ✔ **Real-time Parking Slot Detection** using IR sensors  
 ✔ **OLED Display Integration** for instant slot updates  
 ✔ **Automated Gate Control** with a servo motor  
@@ -19,7 +19,7 @@ The **Smart Parking System** is an IoT-based solution designed to automate parki
 
 ---
 
-## 🛠 Components Used
+## Components Used
 🔹 **ESP8266 NodeMCU** – Microcontroller for IoT connectivity  
 🔹 **IR Sensors (x2)** – Detect vehicle presence  
 🔹 **Servo Motor** – Controls parking gate  
@@ -29,7 +29,7 @@ The **Smart Parking System** is an IoT-based solution designed to automate parki
 
 ---
 
-## 🔌 Circuit Connections
+## Circuit Connections
 | **Component**        | **ESP8266 NodeMCU Pin** |
 |----------------------|-----------------------|
 | **IR Sensor 1 (Out)** | D7 (GPIO13) |
@@ -42,9 +42,9 @@ The **Smart Parking System** is an IoT-based solution designed to automate parki
 
 ---
 
-## 🚀 Installation & Setup Guide
+## Installation & Setup Guide
 
-### 2️⃣ Install Required Libraries
+### 1 Install Required Libraries
 Ensure the following libraries are installed in **Arduino IDE**:
 - `ESP8266WiFi.h`
 - `BlynkSimpleEsp8266.h`
@@ -53,7 +53,7 @@ Ensure the following libraries are installed in **Arduino IDE**:
 - `Adafruit_GFX.h`
 - `Adafruit_SSD1306.h`
 
-### 3️⃣ Update Credentials
+### 2 Update Credentials
 Modify the following in **smart_parking.ino**:
 ```cpp
 #define BLYNK_TEMPLATE_ID "ADD_YOUR_BLYNK_TEMPLATE_ID"
@@ -63,18 +63,18 @@ char ssid[] = "YOUR_WIFI_SSID";
 char pass[] = "YOUR_WIFI_PASSWORD";
 ```
 
-### 4️⃣ Upload the Code
+### 3 Upload the Code
 - Connect **NodeMCU** to your PC.
 - Open **Arduino IDE** and select the correct board/port.
 - Click **Upload** and wait for the process to complete.
 
-### 5️⃣ Monitor System Output
+### 4 Monitor System Output
 - Open **Serial Monitor** (115200 baud rate) for debugging.
 - Use the **Blynk app** to view real-time parking slot updates.
 
 ---
 
-## 🎯 How It Works
+## How It Works
 1️⃣ **Vehicle Detection** – IR sensors detect vehicle presence.  
 2️⃣ **OLED Display Update** – Available slots are shown dynamically.  
 3️⃣ **Gate Operation** – If a slot is available, the servo motor opens the gate.  
@@ -83,11 +83,11 @@ char pass[] = "YOUR_WIFI_PASSWORD";
 
 ---
 
-## 🔮 Future Enhancements
-🚀 **Automated Payment System** – Smart billing integration  
-🤖 **AI-based Slot Prediction** – Intelligent slot recommendation  
-📷 **Camera-based Vehicle Recognition** – For security enhancement  
-📡 **Cloud Data Storage** – Parking history & analytics  
+## Future Enhancements
+ **Automated Payment System** – Smart billing integration  
+ **AI-based Slot Prediction** – Intelligent slot recommendation  
+ **Camera-based Vehicle Recognition** – For security enhancement  
+ **Cloud Data Storage** – Parking history & analytics  
 
 ---
 
