@@ -1,5 +1,9 @@
 # 🚗 Smart Parking System using IoT 🚦
 
+<p align="center">
+  <img src="Smart_Parking_System.png" alt="Smart Parking System" height="50%" width="80%">
+</p>
+
 ## 📌 Overview
 The **Smart Parking System** is an IoT-based solution designed to automate parking management. Using **IR sensors, an OLED display, a servo motor, and ESP8266**, the system detects available slots, updates real-time data on the **Blynk IoT platform**, and manages gate access efficiently. This project ensures seamless parking solutions with a user-friendly interface. 🚘✨
 
